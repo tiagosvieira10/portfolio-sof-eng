@@ -91,7 +91,7 @@ section.about {
     line-height: 40px;
     h2 {
       margin-bottom: 3rem;
-      font-size: 4rem;
+      font-size: 5rem;
     
       strong {
         line-height: 6rem;
@@ -148,9 +148,10 @@ section.formation {
       }
     }
   }
-
-
 }
+
+/* Portfólio */
+
 
 
 
