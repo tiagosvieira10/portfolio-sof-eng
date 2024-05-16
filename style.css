@@ -154,7 +154,7 @@ section.formation {
 
 section.projects {
   background-color: #F5F5F5;
-  border-radius: 50px;
+  border-radius: 50px 50px 0 0;
   color: grey;
   padding: 10rem 3rem;
 
@@ -205,6 +205,57 @@ section.projects {
 }
 
 /* Contato  */
+
+section.contact {
+  background-color: #F5F5F5;
+  color: grey;
+  padding: 5rem 3rem;
+
+  h2 {
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    background: linear-gradient(to left, black, #008BA4);
+    background-clip: text;
+    color: transparent;
+  }
+
+  .form-group {
+    margin-bottom: 2rem;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+      width: 100%;
+      padding: 1.2rem;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: rgba(0, 139, 164, 1);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+
+  button:hover {
+      background-color: rgba(0, 139, 164, 0.8);
+  }
+}
 
 
 
