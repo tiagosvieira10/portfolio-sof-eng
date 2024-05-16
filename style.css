@@ -24,8 +24,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100; 
+  
+  
   padding: 2rem;
   background-color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra para destaque */
 
   img {
     width: 100px;
@@ -61,4 +69,47 @@ body {
 
   color: white;
 }
+
+/* Sobre mim  */
+
+section.about {
+  color: white;
+
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15rem 3rem;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  .text-about {
+    line-height: 40px;
+    h2 {
+      margin-bottom: 4rem;
+      font-size: 4rem;
+      
+
+      strong { 
+        background: linear-gradient(to right, white, #008BA4);
+        background-clip: text;
+        color: transparent;
+      }
+    }
+  }
+
+  span {
+    font-size: 1.1rem;
+    strong {
+      padding: 0.1rem 0.8rem;
+      background-color: rgba(0, 139, 164, 0.6);
+    }
+  }
+}
+
+
 
