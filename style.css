@@ -128,7 +128,7 @@ section.formation {
 
   .text-formation {
     padding: 0 2rem;
-    border-left: 1px solid white;
+    border-left: 4px solid white;
   }
 
   .description-formation {
@@ -151,6 +151,49 @@ section.formation {
 }
 
 /* Portfólio */
+
+section.projects {
+
+  background-color: #F5F5F5;
+  color: grey;
+  padding: 10rem 3rem;
+
+  h2 {
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    background: linear-gradient(to left, black, #008BA4);
+    background-clip: text;
+    color: transparent;
+  }
+
+  .projects-card {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 2rem;
+    border-radius: 50px;
+
+    img {
+      width: 50rem;
+    }
+
+    h3 {
+      font-size: 2.5rem;
+    }
+  }
+
+  .links-projects {
+    a {
+      text-decoration: none;
+    }
+    img {
+      width: 4rem;
+      height: 4rem;
+    }
+  }
+
+}
 
 
 
